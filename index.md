@@ -41,3 +41,4 @@
 - [1.19](versions/1_19.md)
 - [1.19.1](versions/1_19_1.md)
 - [1.19.2](versions/1_19_2.md)
+- [1.19.3](versions/1_19_3.md)
