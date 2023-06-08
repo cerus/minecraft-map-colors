@@ -1,6 +1,6 @@
 # Minecraft map colors
 
-This repository contains a list of all available map colors for each version between 1.8.3 and 1.19. The colors were fetched by a script that pulled
+This repository contains a list of all available map colors for each version between 1.8.3 and 1.20. The colors were fetched by a script that pulled
 the Spigot source code for each version and scanned the MaterialMapColor.java class.
 
 [Click me to go to the color index](index.md)
@@ -17,6 +17,7 @@ I decided to make this repository.
 - `index.md`: An index for each version stored in this repository
 - `versions/`: The directory that contains the versions
 - `mappings.json`: All of the colors in a convenient json file
+- `mappings_min.json`: Same as above but in a way smaller format
 
 ## mappings.json
 
@@ -96,7 +97,7 @@ class MyClass {
                 int rgb = colorArr.get(variant).getAsInt();
                 final Color color = new Color(rgb, false /*<- Important!*/);
                 // id * 4 + variant = Protocol ID
-                System.out.println((id * 4 + variant) + " = rgb(" + color.getRed() + ", " + color.getGreen() + ", " + color.getBlue() + ")");
+                System.out.printf("%d = rgb(%d, %d, %d)%n", id * 4 + variant, color.getRed(), color.getGreen(), color.getBlue());
 
                 // Output:
                 // 0 = rgb(0, 0, 0)
@@ -113,6 +114,10 @@ class MyClass {
     }
 }
 ```
+
+## mappings_min.json
+
+The basic format is the same as in mappings.json. The only difference is that colors that have not changed have not been recorded in the file.
 
 ## Enjoy my work?
 
