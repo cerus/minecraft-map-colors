@@ -1,6 +1,6 @@
 # Minecraft map colors
 
-This repository contains a list of all available map colors for each version between 1.8.3 and 1.20. The colors were fetched by a script that pulled
+This repository contains a list of all available map colors for each version between 1.8.3 and 1.21.8. The colors were fetched by a script that pulled
 the Spigot source code for each version and scanned the MaterialMapColor.java class.
 
 [Click me to go to the color index](index.md)
