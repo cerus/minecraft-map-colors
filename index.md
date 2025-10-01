@@ -58,3 +58,4 @@
 - [1.21.6](versions/1_21_6.md)
 - [1.21.7](versions/1_21_7.md)
 - [1.21.8](versions/1_21_8.md)
+- [1.21.9](versions/1_21_9.md)
